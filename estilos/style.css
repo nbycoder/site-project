@@ -2,14 +2,43 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
 }
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    color:purple;
+}
  body {
-     background-color: rgb(218, 195, 255);
+     background-color: rgb(170, 114, 170);
  }
 
  main {
-     background-color: rgb(170, 114, 170);
+    background-color: rgb(223, 182, 233);
+     color:rgb(129, 90, 143);
      margin: auto;
      width: 500px;
      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
      padding: 5px; 
+ }
+
+ .right {
+     float: right;
+ }
+
+ #javascript {
+     padding-bottom: 2px;
+ }
+
+ .video {
+     padding-right: 62px;
+ }
+
+ a {
+     text-decoration: none;
+     color: rgb(150, 73, 150);
+     font-weight: bold;
+ }
+ a:hover {
+     color:rgb(185, 131, 199);
  }
